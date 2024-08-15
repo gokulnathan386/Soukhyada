@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Soukhyada"
+        tools:targetApi="31">
+        <activity
+            android:name="com.soukhyada.soukhyadanew.PickUpRepairService.PickUpRepairServiceActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.soukhyada.soukhyadanew.Repair.MobileModelColorActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.soukhyada.soukhyadanew.OnBoarding.OnBoardingScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.soukhyada.soukhyadanew.Repair.MobileModelActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.soukhyada.soukhyadanew.Repair.MobileSeriesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.soukhyada.soukhyadanew.Profile.ProfileUpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.soukhyada.soukhyadanew.changepassword.ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.soukhyada.soukhyadanew.Profile.ProfileScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.soukhyada.soukhyadanew.LoginRegister.PhoneNumberOtpActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.soukhyada.soukhyadanew.LoginRegister.ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.soukhyada.soukhyadanew.LoginRegister.ForgotPasswordOtpVerfiyActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.soukhyada.soukhyadanew.LoginRegister.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.soukhyada.soukhyadanew.LoginRegister.RegisterScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.soukhyada.soukhyadanew.LoginRegister.LoginScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.soukhyada.soukhyadanew.SplashScreen.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.soukhyada.soukhyadanew.MainScreen.DashboardActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

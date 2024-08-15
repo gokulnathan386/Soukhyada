@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">soukhyada</string>
+
+    <!-- Profile Settings-->
+    <string name="prof_about">About us</string>
+    <string name="prof_faq">FAQ</string>
+    <string name="prof_refer">Referrals</string>
+    <string name="prof_feedback">Send Feedback</string>
+    <string name="prof_support">Support</string>
+    <string name="prof_page">Profile</string>
+    <string name="prof_language">Language</string>
+    <string name="prof_rate">Rate us</string>
+    <string name="prof_logout">Logout</string>
+    <string name="prof_delete">Delete Account</string>
+    <string name="prof_change_password">Change Password</string>
+    <string name="prof_contus">Contact Us</string>
+</resources>

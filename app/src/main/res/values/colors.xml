@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="status_bar_light_green">#ff4301</color>
+    <color name="bg_color_light_green">#f58d71</color>
+    <color name="splash_bar_status">#ff4301</color>
+
+    <color name="extreme_dark_green">#173303</color>
+    <color name="textcolorcreate">#A1AAB2</color>
+    <color name="themecolor">#9FE870</color>
+    <color name="my_light_primary">#07893f</color>
+
+    <color name="bg_red_color_theme">#ff5b5b</color>
+    <color name="cancel_btn_gray_color">#555555</color>
+    <color name="text_color">#333333</color>
+    <color name="gray_color">#dadde6</color>
+    <color name="text_hint_gray">#c1c1c1</color>
+    <color name="category_light_color">#FFE8EB</color>
+    <color name="theme_color">#2a92c7</color>
+
+
+</resources>
